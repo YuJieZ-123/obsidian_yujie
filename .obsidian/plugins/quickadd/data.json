@@ -17,7 +17,7 @@
       "activeFileWritePosition": "cursor",
       "createFileIfItDoesntExist": {
         "enabled": true,
-        "createWithTemplate": false,
+        "createWithTemplate": true,
         "template": ""
       },
       "format": {
