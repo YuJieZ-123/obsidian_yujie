@@ -4,19 +4,24 @@
       "id": "9003bd7d-57e1-45e8-8262-ddea74ebbe35",
       "name": "灵感",
       "type": "Capture",
-      "command": false,
-      "appendLink": false,
-      "captureTo": "",
+      "command": true,
+      "appendLink": {
+        "enabled": true,
+        "placement": "replaceSelection",
+        "requireActiveFile": true,
+        "linkType": "link"
+      },
+      "captureTo": "灵感/",
       "captureToActiveFile": false,
       "captureToCanvasNodeId": "",
       "activeFileWritePosition": "cursor",
       "createFileIfItDoesntExist": {
-        "enabled": false,
+        "enabled": true,
         "createWithTemplate": false,
         "template": ""
       },
       "format": {
-        "enabled": false,
+        "enabled": true,
         "format": ""
       },
       "insertAfter": {
