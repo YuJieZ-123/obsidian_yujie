@@ -7,8 +7,8 @@
       "command": false,
       "templatePath": "",
       "fileNameFormat": {
-        "enabled": false,
-        "format": ""
+        "enabled": true,
+        "format": "/"
       },
       "folder": {
         "enabled": false,
