@@ -1,28 +1,41 @@
 {
   "choices": [
     {
-      "id": "79360056-6969-4e20-aa2d-7a1cf1e95385",
+      "id": "9003bd7d-57e1-45e8-8262-ddea74ebbe35",
       "name": "灵感",
-      "type": "Template",
-      "command": true,
-      "templatePath": "",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "/灵感"
+      "type": "Capture",
+      "command": false,
+      "appendLink": false,
+      "captureTo": "",
+      "captureToActiveFile": false,
+      "captureToCanvasNodeId": "",
+      "activeFileWritePosition": "cursor",
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
       },
-      "folder": {
-        "enabled": true,
-        "folders": [],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
+      "format": {
+        "enabled": false,
+        "format": ""
       },
-      "appendLink": {
-        "enabled": true,
-        "placement": "replaceSelection",
-        "requireActiveFile": true,
-        "linkType": "link"
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top",
+        "inline": false,
+        "replaceExisting": false,
+        "blankLineAfterMatchMode": "auto"
       },
+      "newLineCapture": {
+        "enabled": false,
+        "direction": "below"
+      },
+      "prepend": false,
+      "task": false,
       "openFile": false,
       "fileOpening": {
         "location": "tab",
@@ -30,8 +43,9 @@
         "mode": "default",
         "focus": true
       },
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
+      "templater": {
+        "afterCapture": "none"
+      }
     }
   ],
   "inputPrompt": "single-line",
