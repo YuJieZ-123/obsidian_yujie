@@ -4,20 +4,25 @@
       "id": "79360056-6969-4e20-aa2d-7a1cf1e95385",
       "name": "灵感",
       "type": "Template",
-      "command": false,
+      "command": true,
       "templatePath": "",
       "fileNameFormat": {
         "enabled": true,
-        "format": "/"
+        "format": "灵感"
       },
       "folder": {
-        "enabled": false,
+        "enabled": true,
         "folders": [],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
       },
-      "appendLink": false,
+      "appendLink": {
+        "enabled": true,
+        "placement": "replaceSelection",
+        "requireActiveFile": true,
+        "linkType": "link"
+      },
       "openFile": false,
       "fileOpening": {
         "location": "tab",
